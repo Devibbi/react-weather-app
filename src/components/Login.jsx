@@ -1,20 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-export default function Login() {
-    const handleClick = async () => {}
+import Body from "./Body";
+const Login =()=> {
+    const handleClick = () => {
+        <Body />
+    }
     return (
     <Container>
     <div>
-    
+   
     <img
       src="http://openweathermap.org/img/wn/10d@2x.png"
       alt="Weather app"
     />
-
+    
+    <a href="./Body.jsx">
     <button onClick={handleClick}><span>Show Weather</span></button>
+    </a>
     </div>
   </Container>)
 }
+export default Login;
 const Container = styled.div`
   display: flex;
   justify-content: center;
