@@ -12,14 +12,13 @@ This app was bult in React-js. This is a Weather clone app which is connected to
 ## How To Setup
 In the project directory, you can run:
 
-### `git clone [https://github.com/Devibbi/react-weather-app]`
+### `git clone https://github.com/Devibbi/react-weather-app`
 
 
 Clone (downloads) a repository that already exists on GitHub, including all of the files, branches, and commits. See section about git clone
 
 ### `npm start`
 Runs the app in the development mode.
-Open https://weather.devibbi.com/ to view it in your browser.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
@@ -32,3 +31,6 @@ Builds the app for production to the build folder. It correctly bundles React in
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 
 See the section about deployment for more information.
+
+### `Demo`
+Open https://weather.devibbi.com/ to view it in your browser.
