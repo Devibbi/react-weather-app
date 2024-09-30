@@ -9,7 +9,7 @@ Chart.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Too
 const WeatherChart = ({ forecast }) => {
 
   if (!forecast || !forecast.list) {
-    return <p>Loading chart data...</p>;
+    return <p>Problem loading chart data...</p>;
   }
 
   const hours = forecast.list.map(item => new Date(item.dt * 1000).getHours());
