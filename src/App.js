@@ -40,6 +40,10 @@ const Container= styled.div`
 
   padding: 40px;
   text-align: center;
+  background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 h1
