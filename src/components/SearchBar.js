@@ -64,7 +64,5 @@ button{
   width:20%;
 }
 
-  &:hover {
-    background-color: #0056b3;
-  }
+
 `;
