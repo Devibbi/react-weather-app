@@ -37,7 +37,7 @@ function App() {
 export default App;
 
 const Container= styled.div`
-
+  min-height:800px;
   padding: 40px;
   text-align: center;
   background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg');

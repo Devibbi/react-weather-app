@@ -1,6 +1,15 @@
 import React from 'react';
 import styled from "styled-components";
 const WeatherCard = ({ weather }) => {
+  if(typeof weather.error!='undefined' && weather.error.length > 0){
+    return(
+      <Container>
+        <div>
+          {weather.error}
+        </div>
+      </Container>
+    )
+  }
   return (
     <Container>
     <div className="weather-card">
