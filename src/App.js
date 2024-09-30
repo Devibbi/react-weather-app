@@ -44,10 +44,14 @@ const Container= styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  img
+  {
+  width:auto;
+  height:auto
+}
 
 h1
   {margin-bottom: 40px;
   font-size: 2.5rem;
-  color: #007bff;}
+  color: white;}
 `;

@@ -12,6 +12,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <Container>
+    <div className='center1'>
     <form onSubmit={handleSearch}>
       <input
         type="text"
@@ -21,17 +22,25 @@ const SearchBar = ({ onSearch }) => {
       />
       <button type="submit">Search</button>
     </form>
+    </div>
     </Container>
   );
 };
 
 export default SearchBar;
 const Container = styled.div`
+.center1 {
+width:75%;
+margin:0 auto;
+}
+
 form{
   display: flex;
-  justify-content: center;
   margin-bottom: 20px;
   background:white;
+  width:100%;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 
@@ -40,7 +49,7 @@ input{
   font-size: 1rem;
   border: 2px solid #ccc;
   border-radius: 5px;
-  width: 50%;
+  width: 80%;
   margin-right: 10px;
 };
 
@@ -52,6 +61,7 @@ button{
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
+  width:20%;
 }
 
   &:hover {
